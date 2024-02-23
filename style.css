@@ -1,0 +1,77 @@
+@charset "UTF-8";
+body{
+    background: rgb(224, 50, 50);
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2023/02/20190918135414-tommy-shelby-peaky-blinders.jpeg);
+
+}
+
+#calculator{
+    max-width: 360px;
+    background-color: #072040;
+    border-radius: 13px;
+    padding: 18px;
+    box-shadow: 10vh;
+
+}
+#display {
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 3px;
+    color: black;
+    background: #D9C5AD;
+    border: aqua;
+    box-sizing: border-box;
+}
+
+button{
+    width: calc(25% - 12px);
+    height: 50px;
+    font-size: 22px;
+    margin: 10px 5px;
+    border: none;
+    float: left;
+    background-color: #736140;
+    color: black;
+    box-shadow: red;
+}
+
+.operator{
+    color: black;
+    background-color: #A68F63;
+}
+
+#ac{
+    color: black;
+}
+.equal{
+    color: brown;
+    background-color: black ;
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    transform: rotate(.9);
+    box-shadow: burlywood;
+}
+
+h1{
+    font-family: sans-serif;
+    color: white;
+}
+
+footer{
+    font-family: sans-serif;
+    color: white;
+}
